@@ -1,1 +1,1 @@
-Wordpress Child theme for personal blog.
+Handstandwalk Program pre-order landing page

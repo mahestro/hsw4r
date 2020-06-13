@@ -15,18 +15,9 @@
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<?php
-
-	if ( ! is_search() ) {
-		get_template_part( 'template-parts/featured-image' );
-	}
-
-	?>
-
-	<div class="post-inner <?php echo is_page_template( 'templates/template-full-width-no-title-no-menu.php' ) ? '' : 'thin'; ?> ">
+	<div class="post-inner post-inner-full <?php echo is_page_template( 'templates/template-blank.php' ) ? '' : 'thin'; ?> ">
 
 		<div class="entry-content">
-
 			<?php
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();

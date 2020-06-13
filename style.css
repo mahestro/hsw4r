@@ -165,9 +165,9 @@
 }
 
 body {
-    font-family: 'Barlow';
-	background: #547478;
-    color: #141626;
+    font-family: 'Barlow', helvetica, arial;
+	background: #fff;
+    color: #635a5c;
 }
 
 .section-inner {
@@ -176,7 +176,7 @@ body {
 
 .singular .entry-header {
     background-color: #fff;
-    color: #ac4d37;
+    color: #a42d42;
 }
 
 h1.entry-title {
@@ -242,36 +242,22 @@ h6,
     margin-left: 5rem;
 }
 
+.entry-content p {
+    margin-bottom: 5rem;
+}
+
 blockquote p {
     font-size: 1.2em;
-}
-
-.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-	max-width: 62rem;
-}
-
-.home-content {
-    font-size: 1.7rem !important;
-    margin-bottom: 2.8rem !important;
-    color: #141626;
-}
-
-.home-blockquote p {
-    margin-bottom: 2rem;
-}
-
-.home-blockquote cite {
-    margin: 0;
 }
 
 /* CUSTOM COLORS */
 
 :root .has-accent-color {
-	color: #ac4d37;
+	color: #a42d42;
 }
 
 :root .has-accent-background-color {
-	background-color: #ac4d37;
+	background-color: #a42d42;
 	color: #fff;
 }
 
@@ -289,7 +275,7 @@ blockquote p {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #ac4d37;
+	color: #a42d42;
 }
 
 /* BACKGROUND COLOR */
@@ -297,7 +283,7 @@ blockquote p {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #ac4d37;
+	background-color: #a42d42;
 }
 
 /* BORDER COLOR */
@@ -305,28 +291,28 @@ blockquote p {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #ac4d37;
+	border-color: #a42d42;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #ac4d37;
+	fill: #a42d42;
 }
 
 .social-icons a {
-	background: #ac4d37;
+	background: #a42d42;
 }
 
 .wp-block-button.is-style-outline {
-	color: #ac4d37;
+	color: #a42d42;
 }
 
 a,
 .primary-menu a,
 body:not(.overlay-header) .primary-menu > li > a {
-    color: #ac4d37;
+    color: #a42d42;
     text-decoration: none;
 }
 
@@ -343,13 +329,13 @@ body:not(.overlay-header) .primary-menu > li > a:hover {
 }
 
 blockquote {
-	border-color: #ac4d37;
+	border-color: #a42d42;
 }
 
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background: #ac4d37;
+	background: #a42d42;
 }
 
 
@@ -361,14 +347,35 @@ input[type="submit"] {
     border-top: 0.1rem #dcd7ca solid;
 }
 
-#mc_embed_signup .mc-fields {
-    display: flex;
+/*** BLANK TEMPLATE  ***/
+
+.post-inner-full {
+    padding-top: 0;
 }
 
-#mc_embed_signup .mc-fields input[type="email"] {
-    width: 65%;
+.post-inner-full .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    min-width: auto;
+    max-width: 100%;
+    width: auto;
 }
 
-#mc_embed_signup .mc-fields input[type="submit"] {
-    margin-left: 0.5rem;
+.post-inner-full .entry-content-full h1,
+.post-inner-full .entry-content-full h2,
+.post-inner-full .entry-content-full h3 {
+    margin: 8rem auto 4rem;
+}
+
+.post-inner-full .entry-content-full li {
+    margin-left: 5rem;
+}
+
+.post-inner-full .entry-content {
+    width: auto;
+    max-width: auto;
+}
+
+/*** CUSTOM HOME PRE-ORDER  ***/
+
+.header {
+    
 }

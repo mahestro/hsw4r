@@ -13,23 +13,16 @@
 
 ?>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+				
+				<div class="footer-content">
+					<?php echo do_shortcode("[sales_countdown_timer id='salescountdowntimer']"); ?>
 
-				<div class="section-inner">
-
-					<div class="footer-credits">
-
-						<p class="footer-copyright">&copy;
-							<?php
-							echo date_i18n(
-								/* translators: Copyright date format, see https://www.php.net/date */
-								_x( 'Y', 'copyright date format', 'twentytwenty' )
-							);
-							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
-						</p><!-- .footer-copyright -->
-
-					</div><!-- .footer-credits -->
-
+					<div class="wp-block-buttons">
+						<div class="wp-block-button is-style-fill text-center">
+							<a class="wp-block-button__link">Pre-Order Program $14,99</a>
+						</div>
+					</div>
+					
 				</div><!-- .section-inner -->
 
 			</footer><!-- #site-footer -->

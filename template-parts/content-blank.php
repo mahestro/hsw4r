@@ -18,6 +18,21 @@
 	<div class="post-inner post-inner-full <?php echo is_page_template( 'templates/template-blank.php' ) ? '' : 'thin'; ?> ">
 
 		<div class="entry-content">
+			<!-- <div class="wp-block-cover alignfull has-background-dim-30 has-background-dim has-background-gradient hsw-header-cover">
+				<span aria-hidden="true" class="wp-block-cover__gradient-background has-midnight-gradient-background"></span>
+				
+				<div class="wp-block-cover__inner-container">
+					<h1>Learn Handstand Walk</h1>
+					<h4>For beginners. Anywhere. No Equipments</h4>
+				</div>
+
+				<video loop muted autoplay poster="http://localhost:8888/hsw4r/wp-content/uploads/2020/06/screencast-2020-06-13-00-31-19.mp4">
+						<source src="http://localhost:8888/hsw4r/wp-content/uploads/2020/06/screencast-2020-06-13-00-31-19.mp4" type="video/webm">
+						<source src="http://localhost:8888/hsw4r/wp-content/uploads/2020/06/screencast-2020-06-13-00-31-19.mp4" type="video/mp4">
+				</video>
+			</div> -->
+
+
 			<?php
 			if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
 				the_excerpt();

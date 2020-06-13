@@ -12,7 +12,7 @@
     font-family: 'Barlow';
     src: url('./assets/fonts/./assets/fonts/barlow/Barlow/./assets/fonts/barlow/Barlow-Medium.eot');
     src: url('./assets/fonts/barlow/Barlow-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/./assets/fonts/barlow/Barlow/./assets/fonts/barlow/Barlow-Medium.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Medium.woff2') format('woff2'),
         url('./assets/fonts/barlow/Barlow-Medium.woff') format('woff'),
         url('./assets/fonts/barlow/Barlow-Medium.ttf') format('truetype'),
         url('./assets/fonts/barlow/Barlow-Medium.svg#./assets/fonts/barlow/Barlow-Medium') format('svg');
@@ -185,27 +185,35 @@ h1.entry-title {
 }
 
 h2.entry-title {
+    font-family: "Barlow";
     font-size: 3.4rem;
 }
 
 h1,
 .heading-size-1 {
-    font-size: 6.8rem;
+    font-family: "Barlow" !important;
+    font-size: 4.8rem;
 }
 
 h2,
 .heading-size-2 {
-    font-size: 3.8rem;
+    font-family: "Barlow" !important;
+    font-size: 4.4rem;
+    text-transform: uppercase;
+    color: #000;
 }
 
 h3,
 .heading-size-3 {
+    font-family: "Barlow" !important;
     font-size: 3.2rem;
 }
 
 h4,
 .heading-size-4 {
-    font-size: 2.8rem;
+    font-family: "Caveat" !important;
+    color: #ecf0b5;
+    font-size: 4rem;
 }
 
 h5,
@@ -228,22 +236,31 @@ h6,
     font-family: "Barlow";
 }
 
+.entry-content ul {
+    list-style: none;
+}
+  
+.entry-content li::before {
+    content: "\25a0";  
+    color: #a42d42; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+
 .entry-content p {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 {
-    margin: 8rem auto 4rem;
+    margin: 4rem auto 2rem;
 }
 
 .entry-content li {
     margin-left: 5rem;
-}
-
-.entry-content p {
-    margin-bottom: 5rem;
 }
 
 blockquote p {
@@ -338,13 +355,22 @@ input[type="submit"] {
 	background: #a42d42;
 }
 
-
 .reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper, .reduced-spacing.footer-top-hidden #site-footer {
     border-top: none;
 }
 
 .footer-inner {
     border-top: 0.1rem #dcd7ca solid;
+
+
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-green {
+    color: #c1c769;
 }
 
 /*** BLANK TEMPLATE  ***/
@@ -359,13 +385,8 @@ input[type="submit"] {
     width: auto;
 }
 
-.post-inner-full .entry-content-full h1,
-.post-inner-full .entry-content-full h2,
-.post-inner-full .entry-content-full h3 {
-    margin: 8rem auto 4rem;
-}
 
-.post-inner-full .entry-content-full li {
+.post-inner-full .entry-content li {
     margin-left: 5rem;
 }
 
@@ -374,8 +395,141 @@ input[type="submit"] {
     max-width: auto;
 }
 
+.post-inner .entry-content > .wp-block-cover.alignwide:first-child,
+.post-inner .entry-content > .wp-block-cover.alignfull:first-child {
+    margin: 0;
+}
+
 /*** CUSTOM HOME PRE-ORDER  ***/
 
-.header {
-    
+.hsw-header-cover {
+    background: url(./assets/i/header.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 0;
+    position: relative;
+}
+
+.hsw-header-cover .wp-block-cover__inner-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #04080e;
+    opacity: 0.85;
+}
+
+.hsw-header-cover .wp-block-cover__inner-container h4 {
+    margin: 0 auto 2rem;
+    text-align: center;
+    color: #ecf0b5;
+}
+
+.fullscreen-video {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.hsw-header-cover .wp-block-cover__inner-container h1 {
+    font-family: 'Barlow';
+    margin: 0.5rem auto;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.font-secondary,
+.font-secondary p {
+    font-family: 'Caveat' !important;
+}
+
+.flyover .price {
+    font-family: 'Caveat';
+    font-size: 10rem;
+}
+
+.flyover p {
+    margin: 1rem 0;
+}
+
+.wp-block-column {
+    padding: 0 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.post-inner-full .wp-block-buttons .wp-block-button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dark-panel {
+    background-color: #162842;
+    color: #fff;
+    position: relative;
+}
+
+.dark-panel .wp-block-column {
+    padding: 0;
+}
+
+.wp-block-cover:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter) {
+    margin: 0;
+}
+
+.wp-block-columns:not(.alignwide):not(.alignfull) {
+    margin-top: 8rem;
+}
+
+.dark-panel .video-container {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    padding: 2rem;
+    margin: 6rem 0 0;
+}
+
+.icon-text {
+    margin: 0 auto;
+    width: 240px;
+    height: 60px;
+    line-height: 60px !important;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f7f8eb;
+}
+
+.dark-panel-gray {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 5rem 10rem 8rem;
+    margin-bottom: 0 !important;
+}
+
+.dark-panel-gray ul {
+    margin: 0;
+}
+
+#site-footer {
+    min-height: 200px;
+    height: auto;
+    background-color: #162842;
+    border: none;
+    padding: 0;
+    color: #fff;
+}
+
+#site-footer .footer-content {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#site-footer .wp-block-button {
+    margin: 0;
+}
+
+#site-footer .footer-credits {
+    margin: 8rem auto;
 }

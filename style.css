@@ -1,0 +1,374 @@
+/*
+ Theme Name:   Handstand Walk For Rookies
+ Author:       mahestro
+ Author URI:   http://handstandwalk4rookies.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/./assets/fonts/barlow/Barlow/./assets/fonts/barlow/Barlow-Medium.eot');
+    src: url('./assets/fonts/barlow/Barlow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/./assets/fonts/barlow/Barlow/./assets/fonts/barlow/Barlow-Medium.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Medium.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-Medium.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-Medium.svg#./assets/fonts/barlow/Barlow-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-MediumItalic.eot');
+    src: url('./assets/fonts/barlow/Barlow-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-MediumItalic.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-MediumItalic.svg#./assets/fonts/barlow/Barlow-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-SemiBoldItalic.eot');
+    src: url('./assets/fonts/barlow/Barlow-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-SemiBoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-SemiBoldItalic.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-SemiBoldItalic.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-SemiBoldItalic.svg#./assets/fonts/barlow/Barlow-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-SemiBold.eot');
+    src: url('./assets/fonts/barlow/Barlow-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-SemiBold.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-SemiBold.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-SemiBold.svg#./assets/fonts/barlow/Barlow-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-Italic.eot');
+    src: url('./assets/fonts/barlow/Barlow-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-Italic.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Italic.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-Italic.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-Italic.svg#./assets/fonts/barlow/Barlow-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-Light.eot');
+    src: url('./assets/fonts/barlow/Barlow-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-Light.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Light.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-Light.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-Light.svg#./assets/fonts/barlow/Barlow-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-LightItalic.eot');
+    src: url('./assets/fonts/barlow/Barlow-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-LightItalic.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-LightItalic.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-LightItalic.svg#./assets/fonts/barlow/Barlow-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-BoldItalic.eot');
+    src: url('./assets/fonts/barlow/Barlow-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-BoldItalic.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-BoldItalic.svg#./assets/fonts/barlow/Barlow-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-Bold.eot');
+    src: url('./assets/fonts/barlow/Barlow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-Bold.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Bold.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-Bold.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-Bold.svg#./assets/fonts/barlow/Barlow-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/barlow/Barlow-Regular.eot');
+    src: url('./assets/fonts/barlow/Barlow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/barlow/Barlow-Regular.woff2') format('woff2'),
+        url('./assets/fonts/barlow/Barlow-Regular.woff') format('woff'),
+        url('./assets/fonts/barlow/Barlow-Regular.ttf') format('truetype'),
+        url('./assets/fonts/barlow/Barlow-Regular.svg#./assets/fonts/barlow/Barlow-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('./assets/fonts/caveat/Caveat-Regular.eot');
+    src: local('Caveat Regular'), local('Caveat-Regular'),
+        url('./assets/fonts/caveat/Caveat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/caveat/Caveat-Regular.woff2') format('woff2'),
+        url('./assets/fonts/caveat/Caveat-Regular.woff') format('woff'),
+        url('./assets/fonts/caveat/Caveat-Regular.ttf') format('truetype'),
+        url('./assets/fonts/caveat/Caveat-Regular.svg#Caveat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('./assets/fonts/caveat/Caveat-Bold.eot');
+    src: local('Caveat Bold'), local('Caveat-Bold'),
+        url('./assets/fonts/caveat/Caveat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/caveat/Caveat-Bold.woff2') format('woff2'),
+        url('./assets/fonts/caveat/Caveat-Bold.woff') format('woff'),
+        url('./assets/fonts/caveat/Caveat-Bold.ttf') format('truetype'),
+        url('./assets/fonts/caveat/Caveat-Bold.svg#Caveat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Barlow';
+	background: #547478;
+    color: #141626;
+}
+
+.section-inner {
+	max-width: 90rem;
+}
+
+.singular .entry-header {
+    background-color: #fff;
+    color: #ac4d37;
+}
+
+h1.entry-title {
+    font-family: "Barlow";
+    color: #000;
+}
+
+h2.entry-title {
+    font-size: 3.4rem;
+}
+
+h1,
+.heading-size-1 {
+    font-size: 6.8rem;
+}
+
+h2,
+.heading-size-2 {
+    font-size: 3.8rem;
+}
+
+h3,
+.heading-size-3 {
+    font-size: 3.2rem;
+}
+
+h4,
+.heading-size-4 {
+    font-size: 2.8rem;
+}
+
+h5,
+.heading-size-5 {
+    font-size: 2.2rem;
+}
+
+h6,
+.heading-size-6 {
+    font-size: 1.9rem;
+}
+
+.entry-categories a {
+    font-size: 1.3rem;
+}
+
+.entry-content p,
+.entry-content ul, 
+.entry-content ol {
+    font-family: "Barlow";
+}
+
+.entry-content p {
+    margin-bottom: 5rem;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+    margin: 8rem auto 4rem;
+}
+
+.entry-content li {
+    margin-left: 5rem;
+}
+
+blockquote p {
+    font-size: 1.2em;
+}
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+	max-width: 62rem;
+}
+
+.home-content {
+    font-size: 1.7rem !important;
+    margin-bottom: 2.8rem !important;
+    color: #141626;
+}
+
+.home-blockquote p {
+    margin-bottom: 2rem;
+}
+
+.home-blockquote cite {
+    margin: 0;
+}
+
+/* CUSTOM COLORS */
+
+:root .has-accent-color {
+	color: #ac4d37;
+}
+
+:root .has-accent-background-color {
+	background-color: #ac4d37;
+	color: #fff;
+}
+
+:root .has-primary-color {
+	color: #000;
+}
+
+:root .has-primary-background-color {
+	background-color: #000;
+	color: #f5efe0;
+}
+
+/* COLOR */
+
+.color-accent,
+.color-accent-hover:focus,
+.color-accent-hover:hover {
+	color: #ac4d37;
+}
+
+/* BACKGROUND COLOR */
+
+.bg-accent,
+.bg-accent-hover:focus,
+.bg-accent-hover:hover {
+	background-color: #ac4d37;
+}
+
+/* BORDER COLOR */
+
+.border-color-accent,
+.border-color-accent-hover:focus,
+.border-color-accent-hover:hover {
+	border-color: #ac4d37;
+}
+
+/* FILL COLOR */
+
+.fill-children-accent,
+.fill-children-accent * {
+	fill: #ac4d37;
+}
+
+.social-icons a {
+	background: #ac4d37;
+}
+
+.wp-block-button.is-style-outline {
+	color: #ac4d37;
+}
+
+a,
+.primary-menu a,
+body:not(.overlay-header) .primary-menu > li > a {
+    color: #ac4d37;
+    text-decoration: none;
+}
+
+a:hover,
+.primary-menu a:hover,
+body:not(.overlay-header) .primary-menu > li > a:hover {
+    text-decoration: underline !important;
+}
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+    color: #547478 !important;
+    text-decoration: none;
+}
+
+blockquote {
+	border-color: #ac4d37;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #ac4d37;
+}
+
+
+.reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper, .reduced-spacing.footer-top-hidden #site-footer {
+    border-top: none;
+}
+
+.footer-inner {
+    border-top: 0.1rem #dcd7ca solid;
+}
+
+#mc_embed_signup .mc-fields {
+    display: flex;
+}
+
+#mc_embed_signup .mc-fields input[type="email"] {
+    width: 65%;
+}
+
+#mc_embed_signup .mc-fields input[type="submit"] {
+    margin-left: 0.5rem;
+}

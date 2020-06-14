@@ -533,3 +533,7 @@ input[type="submit"] {
 #site-footer .footer-credits {
     margin: 8rem auto;
 }
+
+.gm-button {
+    width: auto !important;
+}

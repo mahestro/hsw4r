@@ -19,7 +19,7 @@
 
 					<div class="wp-block-buttons">
 						<div class="wp-block-button is-style-fill text-center">
-							<a class="wp-block-button__link">Pre-Order Program $14,99</a>
+							<a class="wp-block-button__link" href="https://gum.co/fOqNC?wanted=true" target="_blank">Pre-Order Program</a>
 						</div>
 					</div>
 					

@@ -403,7 +403,6 @@ input[type="submit"] {
 /*** CUSTOM HOME PRE-ORDER  ***/
 
 .hsw-header-cover {
-    background: url(./assets/i/header.jpg) no-repeat;
     background-size: cover;
     height: 500px;
     padding: 0;

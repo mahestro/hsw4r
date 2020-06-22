@@ -22,6 +22,19 @@
 							<a class="wp-block-button__link" href="https://gum.co/tQbAN?wanted=true" target="_blank">Pre-Order Program</a>
 						</div>
 					</div>
+
+					<div class="footer-contact">
+						<h4>👋 Do you want to say hi?</h4>
+						<p>You can also share your progress with me through videos. <br />That would be awesome to watch.</p>
+						<ul>
+							<li>
+								<a href="https://www.instagram.com/handstandwalk4rookies" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-instagram.png" width="50" /> @handstanwalk4rookies</a>
+							</li>
+							<li>
+								<a href="mailto:luis@handstanwalk4rookies.com" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-email.png" width="50" /> Send an email</a>
+							</li>
+						</ul>
+					</div>
 					
 				</div><!-- .section-inner -->
 

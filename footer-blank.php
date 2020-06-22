@@ -13,7 +13,7 @@
 
 ?>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
-				
+			<a href="mailto:luis@handstandwalk4rookies.com" target="_blank" rel="noopener noreferrer">Send an email</a>
 				<div class="footer-content">
 					<?php echo do_shortcode("[sales_countdown_timer id='salescountdowntimer']"); ?>
 
@@ -28,10 +28,10 @@
 						<p>You can also share your progress with me through videos. <br />That would be awesome to watch.</p>
 						<ul>
 							<li>
-								<a href="https://www.instagram.com/handstandwalk4rookies" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-instagram.png" width="50" /> @handstanwalk4rookies</a>
+								<a href="https://www.instagram.com/handstandwalk4rookies" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-instagram.png" width="50" /> @handstanwalk4rookies<br />on Instagram</a>
 							</li>
 							<li>
-								<a href="mailto:luis@handstanwalk4rookies.com" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-email.png" width="50" /> Send an email</a>
+								<a href="mailto:luis@handstandwalk4rookies.com" target="_blank" rel="noopener noreferrer"><img src="https://handstandwalk4rookies.com/wp-content/uploads/2020/06/icon-email.png" width="50" /> Send an email<br />luis at handstandwalk4rookies</a>
 							</li>
 						</ul>
 					</div>

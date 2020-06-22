@@ -13,7 +13,7 @@
 
 ?>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
-			<a href="mailto:luis@handstandwalk4rookies.com" target="_blank" rel="noopener noreferrer">Send an email</a>
+			
 				<div class="footer-content">
 					<?php echo do_shortcode("[sales_countdown_timer id='salescountdowntimer']"); ?>
 

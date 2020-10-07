@@ -29,7 +29,7 @@
 		<div class="hsw-header-landing">
 			<div class="wp-block-cover__inner-container">
 				<h3>Handstand Walk</h3>
-				<h4>For beginners. Anywhere. No Equipments</h4>
+				<h4>For beginners. Anywhere</h4>
 			</div>
 		</div>
 

@@ -603,8 +603,9 @@ input[type="submit"] {
 }
 
 #mc_embed_signup .mc-fields {
-    width: 35%;
+    width: 40%;
     margin: 4rem auto 0 auto;
+    text-align: center;
 }
 
 #mc_embed_signup .mc-fields input[type="email"] {

@@ -494,6 +494,10 @@ input[type="submit"] {
     padding: 0;
 }
 
+.wp-block-cover {
+    height: 100%;
+}
+
 .wp-block-cover:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter) {
     margin: 0;
 }

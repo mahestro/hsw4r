@@ -15,8 +15,6 @@
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 			
 				<div class="footer-content">
-					<?php echo do_shortcode("[sales_countdown_timer id='salescountdowntimer']"); ?>
-
 					<div class="wp-block-buttons">
 						<div class="wp-block-button is-style-fill text-center">
 							<a class="wp-block-button__link" href="https://gum.co/tQbAN?wanted=true" target="_blank">Purchase Program</a>
